@@ -1,0 +1,247 @@
+/*=====================================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style-type: none;
+}
+/*=====================================================================================================*/
+
+$index-green: #33A76F;
+$index-text-muted: #6c757d;
+
+.index-body{
+    background-color: #F5F6F7;
+}
+/* HEADER */
+.index-header{
+    height: 100px;
+    width: 100%;
+    background: url(../img/headerbg.png), linear-gradient(to bottom right, #295ba7, #78b454);
+    display: flex;
+    justify-content: space-between;
+
+    .index-header-left{
+
+        img{
+            width: 105px;
+            height: 36px;
+        }
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+        gap: 20px;
+
+        span{
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-left: 8px;
+        }
+
+        input{
+            width: 400px;
+            height: 30px;
+            background-color: #356b6578;
+            color: #ffffff;
+            border: none;
+
+
+            &::placeholder{
+                color: #ffffff;
+                padding-left: 10px;
+            }
+
+            &:focus{
+               outline: none;
+            }
+              
+        }
+
+
+    }
+
+    .index-header-right{
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        gap: 10px;
+    }
+}
+/* CONTAINER */
+.index-container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    .index-main{
+        background-color: #ffffff;
+        box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+        width: 665px;
+        margin: 20px;
+    }
+
+
+}
+
+.index-nome-secao{
+    font-size: 12px;
+    padding: 10px;
+    border-bottom: 1px solid #9e9e9e54;
+}
+
+/* NOTICIAS */
+.index-card-noticia{
+    display: flex;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+
+    .index-card-content{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: space-between;
+        
+        &div:last-child{
+            align-items: flex-end;
+        }
+
+        h6{
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            opacity: 0.95;
+        }
+
+        p{
+            font-size: 14px;
+            padding: 0;
+        }
+    }
+    
+    img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.index-card-reacoes, .index-card-infos{
+    display: flex;
+}
+
+.index-card-reacoes div{
+    margin-right: 5px;
+}
+
+.index-card-infos{
+    margin-top: 15px;
+    justify-content: space-between;
+
+    span{
+        font-size: 13px;
+        color: $index-text-muted;
+    }
+}
+
+/* ASIDE */
+.index-aside{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 20px;
+    background-color: #F5F6F7;
+    gap: 20px;
+
+    div{
+        background-color: #ffffff;
+    }
+    .index-nome-secao{
+        border-bottom: 1px solid #9e9e9e54;
+    }
+}
+
+.index-sistemas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: auto;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%); 
+
+    
+
+    .index-card-sistemas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        width: 120px;
+        height: 84px;
+        margin: 16px;
+        box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
+
+       &:hover{
+        background-color: #33A76F;
+       } 
+
+       &:hover .index-system-icon,  &:hover span{
+        color: #ffffff;
+       } 
+
+       .index-system-icon{
+        color: #33A76F;
+       }
+
+        span{
+            font-size: 12px;
+            color: $index-green;
+            font-weight: 700;
+        }
+    }
+}
+
+.index-aniversario{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #9e9e9e54;
+
+    .index-aniversario-infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    h3{
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: $index-text-muted;
+    }
+    span{
+        font-size: 14px;
+    }
+
+    img{
+        width: 65px;
+        height: 65px;
+        border-radius: 100%;
+    }
+
+    .index-aniversario-data{
+        display: flex;
+        gap: 10px;
+    }
+
+}
