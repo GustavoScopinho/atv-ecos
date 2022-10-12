@@ -5,4 +5,418 @@
 /*!*************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./styles/perfil.scss ***!
   \*************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.perfil-header {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background: url(2113e8d2c706ca4f6d47.png), linear-gradient(to bottom right, #295ba7, #78b454);
+  z-index: 1;
+}
+.perfil-header img {
+  height: 35px;
+  margin-left: 20px;
+}
+.perfil-header .nav-perfil {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.perfil-header .nav-perfil i, .perfil-header .nav-perfil h1 {
+  color: #fff;
+  font-size: 20px;
+}
+.perfil-header .nav-perfil .nav-container01 {
+  z-index: 0;
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+}
+.perfil-header .nav-perfil .nav-container01 i {
+  margin-right: 20px;
+}
+.perfil-header .nav-perfil .nav-container02 {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.perfil-header .nav-perfil .nav-container02 i:first-child {
+  padding-right: 40px;
+  font-size: 26px;
+}
+.perfil-header .nav-perfil .nav-container02 i:nth-child(2) {
+  font-size: 36px;
+  color: #fff;
+}
+.perfil-header .nav-perfil .nav-container02 i:last-child {
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.perfil-container01 {
+  background: url(2113e8d2c706ca4f6d47.png), linear-gradient(5deg, #3b73a3 30%, #7a9547 90%);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 90px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+.perfil-container01 .perfil-box01 {
+  display: flex;
+}
+.perfil-container01 .perfil-box01 i {
+  background-color: #000;
+  color: #fff;
+  font-size: 80px;
+  padding: 25px 30px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+.perfil-container01 .perfil-box01 .perfil-dados {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  justify-content: center;
+}
+.perfil-container01 .perfil-box01 .perfil-dados p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.perfil-container02 {
+  border: 1px solid rgba(0, 0, 0, 0.194);
+  width: 80%;
+  margin: 0 auto;
+  height: 150px;
+  display: flex;
+}
+.perfil-container02 .perfil-name {
+  margin: 1px solid #000;
+  margin: 10px 0px 0px 15px;
+}
+.perfil-container02 .perfil-name h2 {
+  font-size: 18px;
+}
+.perfil-container02 .perfil-name p {
+  margin: 5px 0px 5px 2px;
+  font-size: 16px;
+}
+
+.perfil-pronome {
+  margin-left: 20px;
+}
+.perfil-pronome p {
+  opacity: 70%;
+  font-size: 16px;
+  margin: 20px 0px 5px 0px;
+}
+.perfil-pronome p i {
+  padding-left: 90px;
+}
+.perfil-pronome hr {
+  width: 160px;
+}
+
+.perfil-dados {
+  margin-left: 60px;
+}
+.perfil-dados .perfil-gerente {
+  opacity: 70%;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.perfil-dados .perfil-dados-name {
+  font-size: 16px;
+  margin: 0px 0px 5px 0px;
+}
+.perfil-dados hr {
+  width: 300px;
+}
+
+.perfil-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  opacity: 70%;
+  margin: 20px 0px 0px 20px;
+}
+.perfil-form .input01 {
+  margin-bottom: 8px;
+}
+
+.perfil-form02 {
+  margin-left: 15px;
+  height: 50px;
+}
+.perfil-form02 .input03 {
+  margin-bottom: 6px;
+}
+.perfil-form02 .input02 {
+  display: flex;
+  flex-direction: column;
+  opacity: 70%;
+  margin: 20px 0px 0px -90px;
+}
+.perfil-form02 small {
+  opacity: 70%;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.perfil-form02 p {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+.perfil-form02 hr {
+  width: 200px;
+}
+
+.perfil-form03 {
+  height: 50px;
+  margin-left: 15px;
+}
+.perfil-form03 p {
+  opacity: 70%;
+  font-size: 16px;
+  margin: 15px 0px 8.5px 0px;
+}
+.perfil-form03 hr {
+  width: 180px;
+}
+.perfil-form03 .perfil-filho {
+  margin: 20px 0px 0px -60px;
+}
+
+.perfil-toggle {
+  margin: 30px 0px 0px 150px;
+}
+.perfil-toggle p i {
+  font-size: 30px;
+}
+
+.perfil-endereco {
+  border: 1px solid rgba(0, 0, 0, 0.194);
+  width: 80%;
+  margin: 20px auto;
+  height: 160px;
+}
+.perfil-endereco h2 {
+  color: #137191;
+  font-size: 18px;
+  padding: 15px 0px 0px 15px;
+  margin-bottom: 50px;
+}
+.perfil-endereco .perfil-endereco-h2 {
+  height: 40px;
+  margin-bottom: 10px;
+}
+.perfil-endereco .endereco-box1 {
+  margin-left: 15px;
+}
+.perfil-endereco .endereco-box1 hr {
+  width: 100px;
+}
+.perfil-endereco .endereco-box1 small {
+  opacity: 70%;
+}
+
+.endereco-container-maior {
+  display: flex;
+}
+.endereco-container-maior .endereco-box2 {
+  margin-left: 15px;
+}
+.endereco-container-maior .endereco-box2 i {
+  margin-left: 130px;
+}
+.endereco-container-maior .endereco-box2 hr {
+  width: 200px;
+}
+.endereco-container-maior .endereco-box2 small {
+  opacity: 70%;
+}
+
+.endereco-box3 {
+  margin-left: 15px;
+}
+.endereco-box3 small {
+  opacity: 70%;
+}
+.endereco-box3 hr {
+  width: 400px;
+}
+
+.endereco-box4 {
+  margin-left: 15px;
+  margin-top: 17.5px;
+}
+.endereco-box4 p {
+  opacity: 70%;
+}
+.endereco-box4 hr {
+  width: 110px;
+}
+
+.endereco-box5 {
+  margin-left: 15px;
+}
+.endereco-box5 small {
+  opacity: 70%;
+}
+.endereco-box5 hr {
+  width: 200px;
+}
+
+.endereco-container-down {
+  display: flex;
+  margin: 10px 0px 0px 15px;
+}
+.endereco-container-down .endereco-box6 small {
+  opacity: 70%;
+}
+.endereco-container-down .endereco-box6 hr {
+  width: 315px;
+}
+.endereco-container-down .endereco-box7 {
+  margin-left: 15px;
+}
+.endereco-container-down .endereco-box7 small {
+  opacity: 70%;
+}
+.endereco-container-down .endereco-box7 hr {
+  width: 200px;
+}
+.endereco-container-down .endereco-box8 {
+  margin-left: 15px;
+}
+.endereco-container-down .endereco-box8 small {
+  opacity: 70%;
+}
+.endereco-container-down .endereco-box8 hr {
+  width: 100px;
+}
+
+.perfil-container03 {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: 350px;
+}
+.perfil-container03 .container03-div1 {
+  border: 1px solid rgba(0, 0, 0, 0.194);
+  height: 390px;
+  width: 60%;
+}
+.perfil-container03 .container03-div2 {
+  margin-left: 1%;
+  border: 1px solid rgba(0, 0, 0, 0.194);
+  height: 150px;
+  width: 39%;
+}
+.perfil-container03 .container03-div1 h3 {
+  color: #137191;
+  margin: 20px 0px 0px 15px;
+}
+.perfil-container03 .container03-div1 .perfil-container-menor {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: 0 auto;
+}
+.perfil-container03 .container03-div1 .perfil-container-menor .perfil-container-recebidos {
+  margin-top: 20px;
+  width: 360px;
+  text-align: center;
+}
+.perfil-container03 .container03-div1 .perfil-container-menor .perfil-container-recebidos p {
+  opacity: 60%;
+}
+.perfil-container03 .container03-div1 .perfil-container-menor .perfil-container-recebidos hr {
+  width: 360px;
+  background-color: #137191;
+  height: 2px;
+  border: none;
+}
+.perfil-container03 .container03-div1 .perfil-container-menor .perfil-container-concedidos {
+  margin-top: 20px;
+  width: 360px;
+  text-align: center;
+}
+.perfil-container03 .container03-div1 .perfil-container-menor .perfil-container-concedidos p {
+  opacity: 60%;
+}
+.perfil-container03 .container03-div1 .perfil-container-menor .perfil-container-concedidos hr {
+  background-color: rgba(0, 0, 0, 0.349);
+  opacity: 25%;
+  width: 360px;
+  height: 2px;
+  border: none;
+}
+
+.perfil-container-pai-feedback {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfil-container-right {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+.perfil-container-right .perfil-conhecimentos h3 {
+  color: #137191;
+}
+.perfil-container-right .perfil-conhecimentos h3 i {
+  margin-right: 8px;
+}
+.perfil-container-right .perfil-button-adicionar button {
+  background-color: rgb(6, 110, 6);
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 25px;
+  border: none;
+}
+.perfil-container-right .perfil-button-adicionar button i {
+  margin-right: 3px;
+  font-size: 16px;
+}
+
+.perfil-container-down-none {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.perfil-container-buttons .perfil-buttons {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+}
+.perfil-container-buttons .perfil-buttons #button-save {
+  padding: 15px 16px;
+  background-color: rgb(6, 110, 6);
+  color: #fff;
+  font-size: 26px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.perfil-container-buttons .perfil-buttons #button-close {
+  padding: 15px 20px;
+  background-color: rgb(106, 10, 10);
+  color: #fff;
+  font-size: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+}
